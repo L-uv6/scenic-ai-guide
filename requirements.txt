@@ -1,0 +1,4 @@
+# 核心依赖（启动会后补充完整）
+chromadb
+openai
+python-dotenv
