@@ -1,0 +1,274 @@
+[
+  {
+    "name": "text2vec-base-chinese",
+    "total_queries": 17,
+    "top1": 15,
+    "top1_rate": 0.8823529411764706,
+    "top3": 16,
+    "top3_rate": 0.9411764705882353,
+    "top5": 16,
+    "top5_rate": 0.9411764705882353,
+    "avg_inference_ms": 41.06810513664694,
+    "details": [
+      {
+        "query": "广州鲁迅纪念馆在哪里？",
+        "expected": "venue_001",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "venue_001",
+          "bio_001",
+          "venue_002",
+          "bio_002",
+          "venue_003"
+        ],
+        "top1_distance": 0.20285654067993164
+      },
+      {
+        "query": "钟楼是什么时候建的？",
+        "expected": "venue_002",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "venue_002",
+          "bio_001",
+          "venue_001",
+          "work_001",
+          "work_005"
+        ],
+        "top1_distance": 0.40071213245391846
+      },
+      {
+        "query": "纪念馆的开放时间",
+        "expected": "venue_003",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "venue_003",
+          "venue_001",
+          "bio_001",
+          "venue_002",
+          "quote_001"
+        ],
+        "top1_distance": 0.31819766759872437
+      },
+      {
+        "query": "吃人的礼教",
+        "expected": "work_001",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "work_001",
+          "work_004",
+          "work_005",
+          "work_003",
+          "work_002"
+        ],
+        "top1_distance": 0.45023250579833984
+      },
+      {
+        "query": "地上本没有路",
+        "expected": "work_002",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "work_002",
+          "work_001",
+          "work_004",
+          "work_005",
+          "quote_001"
+        ],
+        "top1_distance": 0.45577943325042725
+      },
+      {
+        "query": "横眉冷对千夫指",
+        "expected": "work_003",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "work_003",
+          "work_001",
+          "persona_001",
+          "work_004",
+          "quote_002"
+        ],
+        "top1_distance": 0.43778568506240845
+      },
+      {
+        "query": "真正的猛士",
+        "expected": "work_004",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "work_004",
+          "quote_003",
+          "quote_001",
+          "persona_001",
+          "quote_002"
+        ],
+        "top1_distance": 0.43341755867004395
+      },
+      {
+        "query": "一株是枣树",
+        "expected": "work_005",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "work_005",
+          "work_001",
+          "work_003",
+          "work_002",
+          "bio_002"
+        ],
+        "top1_distance": 0.17629361152648926
+      },
+      {
+        "query": "鲁迅什么时候到广州的？",
+        "expected": "bio_001",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "bio_001",
+          "venue_001",
+          "venue_002",
+          "bio_002",
+          "persona_001"
+        ],
+        "top1_distance": 0.3670380115509033
+      },
+      {
+        "query": "鲁迅出生在哪里？",
+        "expected": "bio_002",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "bio_002",
+          "venue_001",
+          "bio_001",
+          "bio_003",
+          "venue_002"
+        ],
+        "top1_distance": 0.40977299213409424
+      },
+      {
+        "query": "鲁迅为什么弃医从文？",
+        "expected": "bio_003",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "bio_003",
+          "bio_001",
+          "venue_001",
+          "bio_002",
+          "venue_002"
+        ],
+        "top1_distance": 0.39449435472488403
+      },
+      {
+        "query": "不在沉默中爆发",
+        "expected": "quote_001",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "quote_001",
+          "work_004",
+          "quote_002",
+          "persona_001",
+          "work_003"
+        ],
+        "top1_distance": 0.16657304763793945
+      },
+      {
+        "query": "哀其不幸",
+        "expected": "quote_002",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "quote_002",
+          "work_004",
+          "quote_001",
+          "bio_003",
+          "work_002"
+        ],
+        "top1_distance": 0.23997986316680908
+      },
+      {
+        "query": "中国的脊梁是什么意思",
+        "expected": "quote_003",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "quote_003",
+          "work_002",
+          "work_001",
+          "venue_002",
+          "work_004"
+        ],
+        "top1_distance": 0.34296995401382446
+      },
+      {
+        "query": "鲁迅的写作风格",
+        "expected": "persona_001",
+        "top1": true,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "persona_001",
+          "venue_001",
+          "bio_002",
+          "bio_001",
+          "bio_003"
+        ],
+        "top1_distance": 0.3606213331222534
+      },
+      {
+        "query": "鲁迅在广州做了什么？",
+        "expected": "bio_001",
+        "top1": false,
+        "top3": true,
+        "top5": true,
+        "hits": [
+          "venue_001",
+          "bio_001",
+          "bio_002",
+          "venue_002",
+          "persona_001"
+        ],
+        "top1_distance": 0.36741405725479126
+      },
+      {
+        "query": "鲁迅对青年有什么期望？",
+        "expected": "work_002",
+        "top1": false,
+        "top3": false,
+        "top5": false,
+        "hits": [
+          "venue_001",
+          "bio_002",
+          "bio_001",
+          "bio_003",
+          "venue_002"
+        ],
+        "top1_distance": 0.5633000731468201
+      }
+    ],
+    "load_info": {
+      "load_time": 85.46553540229797,
+      "inference_time": 0.3479466438293457
+    }
+  }
+]
