@@ -36,5 +36,5 @@ Embedding 模型: BAAI/bge-small-zh-v1.5
 推理延迟:       ~14ms/query
 模型大小:       ~100MB
 ```
-
+建议采用“Embedding (语义检索) + Reranker (重排序模型)”机制
 ---
